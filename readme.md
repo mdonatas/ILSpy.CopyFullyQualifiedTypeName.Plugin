@@ -6,7 +6,7 @@ This plugin adds two context menu entries for type definitions in type explorer 
 
 To install plugins for ILSpy you need to copy *.Plugin.dll file next to ILSpy.exe.
 
-Already compiled plugin is provided in [Plugin][1] folder.
+Already compiled plugin is provided in [Plugin][1] folder. [[direct link]][2]
 
 ## Compiling
 
@@ -16,4 +16,5 @@ To compile plugin you will need to add references to these files
  - ICSharpCode.TreeView.dll
  - Mono.Cecil.dll
 
-  [1]: tree/master/Plugin
+  [1]: ILSpy.CopyFullyQualifiedTypeName.Plugin/tree/master/Plugin
+  [2]: ILSpy.CopyFullyQualifiedTypeName.Plugin/raw/master/Plugin/ILSpy.CopyFullyQualifiedTypeName.Plugin.dll
