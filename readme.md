@@ -20,4 +20,4 @@ To compile plugin you will need to add references to these files
 
   [1]: ILSpy.CopyFullyQualifiedTypeName.Plugin/tree/master/Plugin
   [2]: ILSpy.CopyFullyQualifiedTypeName.Plugin/raw/master/Plugin/ILSpy.CopyFullyQualifiedTypeName.Plugin.dll
-  [3]: ILSpy.CopyFullyQualifiedTypeName.Plugin/readme/context_menu.png
+  [3]: ILSpy.CopyFullyQualifiedTypeName.Plugin/raw/master/readme/context_menu.png
