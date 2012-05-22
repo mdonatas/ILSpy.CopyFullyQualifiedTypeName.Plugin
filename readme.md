@@ -1,6 +1,6 @@
 # CopyFullyQualifiedTypeName plugin for ILSpy
 
-This plugin adds two context menu entries for type definitions in type explorer tree. Just right click on a class or interface definition and you will get an option to copy fully qualified type name.
+This plugin adds two context menu entries for type definitions in type explorer tree. Just right click on a class or interface definition and you will get an option to copy fully qualified type name to clipboard.
 
 ## Install notes
 
