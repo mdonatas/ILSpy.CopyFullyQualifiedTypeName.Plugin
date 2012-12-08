@@ -78,13 +78,30 @@ namespace ILSpy.CopyFullyQualifiedTypeName.Plugin
             {
                 var typeReference = derivedTypesNode.Member as TypeReference;
 
+                AssemblyNameReference assemblyReference = typeReference.Scope as AssemblyNameReference;
+                ModuleDefinition moduleDefinition = typeReference.Scope as ModuleDefinition;
+
                 if (includeAssemblyVersion)
                 {
-                    assemblyName = typeReference.Module.Assembly.Name.FullName;
+                    if (assemblyReference != null)
+                    {
+                        assemblyName = assemblyReference.FullName;
+                    }
+                    else if (moduleDefinition != null)
+                    {
+                        assemblyName = moduleDefinition.Assembly.FullName;
+                    }
                 }
                 else
                 {
-                    assemblyName = typeReference.Module.Assembly.Name.Name;
+                    if (assemblyReference != null)
+                    {
+                        assemblyName = assemblyReference.Name;
+                    }
+                    else if (moduleDefinition != null)
+                    {
+                        assemblyName = moduleDefinition.Assembly.Name.Name;
+                    }
                 }
 
                 namespaceName = typeReference.Namespace;
