@@ -18,6 +18,6 @@ To compile plugin you will need to add references to these files
  - ICSharpCode.TreeView.dll
  - Mono.Cecil.dll
 
-  [1]: https://raw.github.com/mdonatas/ILSpy.CopyFullyQualifiedTypeName.Plugin/tree/master/Plugin
+  [1]: https://github.com/mdonatas/ILSpy.CopyFullyQualifiedTypeName.Plugin/tree/master/Plugin
   [2]: https://raw.github.com/mdonatas/ILSpy.CopyFullyQualifiedTypeName.Plugin/master/Plugin/ILSpy.CopyFullyQualifiedTypeName.Plugin.dll
   [3]: https://raw.github.com/mdonatas/ILSpy.CopyFullyQualifiedTypeName.Plugin/master/readme/context_menu.png
